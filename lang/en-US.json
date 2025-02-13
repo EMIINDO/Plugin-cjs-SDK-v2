@@ -1,0 +1,48 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Call JS Plugin",
+  "text": {
+    "plugins": {
+      "cjs": {
+        "name": "Call JS",
+        "description": "Calls a script.",
+        "help-url": "https://www.construct.net",
+        "properties": {
+          "scriptfile": {
+            "name": "Scriptfile",
+            "desc": "The name of the external Javascriptfile."
+          }
+        },
+        "aceCategories": {
+          "data": "Data"
+        },
+        "conditions": {
+          "errvalue": {
+            "list-name": "On Execute error",
+            "display-text": "On Execute error",
+            "description": "On Execute error"
+          }
+        },
+        "actions": {
+          "executejs0": {
+            "list-name": "Execute",
+            "display-text": "Execute {0}",
+            "description": "Execute a Javascript-script!",
+            "params": {
+              "value0": {
+                "name": "Value",
+                "desc": "Enter a string to execute."
+              }
+            }
+          }
+        },
+        "expressions": {
+          "readexecutionreturn0": {
+            "description": "Read the return value.",
+            "translated-name": "ReadExecutionReturn"
+          }
+        }
+      }
+    }
+  }
+}
