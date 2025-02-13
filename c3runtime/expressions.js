@@ -1,6 +1,6 @@
 "use strict";
 {
-    self.globalThis.C3.Plugins.cjs.Exps = {
+    globalThis.C3.Plugins.cjs.Exps = {
         ReadExecutionReturn()
         {
 
